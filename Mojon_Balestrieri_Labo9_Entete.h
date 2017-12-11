@@ -1,19 +1,23 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+-----------------------------------------------------------------------------------
+\file     Mojon_Balestrieri_Labo9_Entete.h
+\authors  Colone Mojon , Hakim Balestrieri
+\date     10.12.2017
+-----------------------------------------------------------------------------------
  */
-
-/* 
- * File:   Labo9_Mojon_Baletrieri_Entete.h
- * Author: Mojon
- *
- * Created on 11. décembre 2017, 15:14
- */
-
+#include <iostream>
+#include <cstdlib>
+#include <limits>
 #ifndef LABO9_MOJON_BALETRIERI_ENTETE_H
 #define LABO9_MOJON_BALETRIERI_ENTETE_H
-
+/**
+ * \brief la fonction recupere la saisie utilisateur et
+ * teste les données
+ * \return int
+ * 
+ * il est demander de saisir a nouveau "saisie" tant qu'elle est incohérente
+ */
+int saisieValeur();
 
 
 #endif /* LABO9_MOJON_BALETRIERI_ENTETE_H */
